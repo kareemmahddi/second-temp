@@ -577,6 +577,17 @@ video::before {
     padding: 10px;
   }
 }
+@media (max-width:767px) {
+  .video {
+    overflow: hidden;
+
+  }
+
+  .video video {
+    width: 220%;
+    background-size: cover;
+  }
+}
 
 .video .text h2 {
   margin: 0 0 30px;

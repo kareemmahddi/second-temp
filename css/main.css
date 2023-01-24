@@ -575,6 +575,7 @@ video::before {
 @media (max-width:767px) {
   .video .text {
     padding: 10px;
+    z-index: 3;
   }
 }
 @media (max-width:767px) {

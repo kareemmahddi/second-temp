@@ -1095,7 +1095,7 @@ video::before {
 }
 
 .contact .content form .main-input:focus {
-  outline: none;
+  outline: 1px solid var(--mainColor);
 }
 
 .contact .content form textarea.main-input {
